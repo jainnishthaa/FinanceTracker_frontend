@@ -1,0 +1,58 @@
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 2%;
+  /* margin-right: 1%; */
+  border-radius: 10px;
+  position: relative;
+}
+
+.card div{
+  font-size: 17px;
+}
+
+.options-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.options-menu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #f8f8fc;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.options-menu button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.options-menu button:hover {
+  background: #f0f0f0;
+}
+
+.edit-div select,
+.edit-div input,
+.edit-div button{
+  margin: 5px;
+  font-size: 15px;
+}
+
+.edit-div button{
+  border-radius: 5px;
+  background-color: #ffffff;
+}

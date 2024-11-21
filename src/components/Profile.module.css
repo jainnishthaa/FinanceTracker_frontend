@@ -1,0 +1,34 @@
+.image {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.information {
+  font-size: 25px;
+}
+
+.btn{
+    border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.edit-container select,
+.edit-container input,
+.edit-container button {
+  margin: 5px;
+  font-size: 15px;
+}
+
+.edit-container button {
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.profile-div{
+  margin: 2%;
+}
