@@ -13,7 +13,7 @@ const Login = () => {
     const password = passwordRef.current.value;
 
     try {
-      const { data } = await axios.post("login", { username, password });
+      const { data } = await axios.post("/login", { username, password });
       console.log(data);
       // SET THE DATA TO REDUX
       dispatch({ type: "SET_USER", payload: data.user });
